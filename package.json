@@ -1,5 +1,8 @@
 {
   "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,6 +11,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.28.0",
+    "nuxt": "^3.6.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^4.9.3"
   }
 }
