@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
     runtimeConfig: {
   public: {
-    builderioKey: "07309f97b0e64d2e92ccd1e5c634aab8"
+    builderioKey: process.env.BUILDERIO_KEY
   },
 },
 })
