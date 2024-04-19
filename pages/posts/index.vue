@@ -1,3 +1,3 @@
 <template>
-    <XBlog />
+  <XBlog />
 </template>
